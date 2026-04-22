@@ -1,3 +1,6 @@
+
+"use client"; 
+
 export default function Home() {
   const submitData = async () => {
     const res = await fetch('/api/feedback', {
