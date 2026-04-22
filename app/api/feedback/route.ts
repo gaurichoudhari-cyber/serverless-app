@@ -5,7 +5,7 @@ export async function POST(request: Request) {
   console.log("Data received on Serverless Edge:", body);
   
   return NextResponse.json({ 
-    msg: "Hello from the Cloud! Your data is processed.",
+    msg: "Data Processed Successfully",
     timestamp: new Date().toLocaleTimeString()
   });
 }
